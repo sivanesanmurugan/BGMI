@@ -1,0 +1,240 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+.top {
+  padding-left: 25px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: fixed;
+}
+.top2 {
+  padding-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 5%;
+}
+a:hover {
+  color: rgb(237, 237, 87);
+}
+.back {
+  background-image: url(back.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foot {
+  display: flex;
+  justify-content: end;
+  padding-top: 8%;
+  margin-right: 25px;
+  height: 40px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-left: 50px;
+  padding-top: 13%;
+}
+.center > h1 {
+  width: 120px;
+  height: 120px;
+  font-family: cursive;
+}
+.heading {
+  font-size: 23px;
+  width: 500px;
+  height: 130px;
+}
+.but {
+  display: flex;
+  width: 450px;
+  display: flex;
+}
+.but1 {
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  height: 50px;
+  width: 120px;
+}
+.but2 {
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  height: 50px;
+  width: 120px;
+}
+.mainbut {
+  padding-top: 20px;
+  height: 50px;
+}
+.home2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(back4.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head1 {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+.box1 {
+  margin: 30px;
+  width: 400px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .box1:hover {
+  width: 405px;
+  height: 335px;
+  background-color: rgb(189, 186, 186);
+  transition-duration: 1s;
+} */
+.box2 {
+  margin: 30px;
+  width: 400px;
+  height: 330px;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .box2:hover {
+  width: 405px;
+  height: 335px;
+  background-color: rgb(189, 186, 186);
+  transition-duration: 1s;
+} */
+.box3 {
+  margin: 30px;
+  width: 400px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .box3:hover {
+  width: 405px;
+  height: 335px;
+  background-color: rgb(189, 186, 186);
+  transition-duration: 1s;
+} */
+.foot2 {
+  display: flex;
+  justify-content: center;
+}
+.home3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(back2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.head2 > h1 {
+  font-family: cursive;
+  font-weight: 700;
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home4 {
+  width: 100vw;
+  height: 70vh;
+  background-image: url(footer1.png);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.body1 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.down1 {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.down > button {
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin: 10px;
+}
+#t1 {
+  background-color: yellow;
+  color: black;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: gray 1px solid;
+  border-radius: 2px;
+  padding-right: 20px;
+}
+#t1:hover {
+  width: 94px;
+  height: 33px;
+  transition-duration: 1s;
+}
